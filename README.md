@@ -1,6 +1,8 @@
 # Netflix Clone 💻
 ### Practice for Prisma, MongoDB, NextAuth and TypeScript.
 
+##### (Also learning how to document and create a readme 😊)
+
 ## Screenshots
 
 ![App Screenshot](https://i.ibb.co/vhVLWxW/net-Clone3.png)
@@ -21,7 +23,10 @@
 - React SWR data fetching
 - Zustand state management
 ## Link to Proyect
-[Nexflix Clone - Versel deploy](https://link-url-here.org)
+[Nexflix Clone - Versel deploy](https://netfclone-simple.vercel.app/auth)
+
+##### (May throw "no secure site" error on chrome)
+
 ## 🔗 Links
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://cirobianchimani-cv.netlify.app/)
