@@ -50,7 +50,7 @@ const AccountMenu: React.FC<AccountMenuProps> = ({
           <div 
             onClick={() => signOut()}
             className="px-3 text-center text-white text-sm hover:underline">
-            Salir de Netflix
+            Salir de Nefli
           </div>
         </div>
     </div>

@@ -58,7 +58,10 @@ const Auth = () => {
       ">
         <div className="bg-black w-full h-full lg:bg-opacity-50">
           <nav className="px-12 py-5">
-            <img src="/images/logo.png" alt="logo" className="h-12" />
+            <img src="/images/nefli-logo.png" alt="logo" className="h-12" />
+            {/* <p className="text-red-600 text-xl">
+              Not the real Netflix - No es Netflix real
+            </p> */}
           </nav>
           <div className="flex justify-center">
             <div className="
