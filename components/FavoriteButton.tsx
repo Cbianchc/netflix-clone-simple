@@ -6,7 +6,7 @@ import useFavorites from "@/hooks/useFavorites";
 
 import { AiOutlinePlus, AiOutlineCheck } from 'react-icons/ai'
 
-import favorite from "@/pages/api/favorite";
+//import favorite from "@/pages/api/favorite";
 
 interface FavoriteButtonProps {
     movieId: string,
@@ -39,7 +39,8 @@ const FavoriteButton: React.FC<FavoriteButtonProps> = ({ movieId }) => {
 
         })
         mutateFavorites();
-    }, [movieId, favorite, currentUser, mutate, mutateFavorites])
+    }, [movieId, currentUser, mutate, mutateFavorites])
+    //aca saque favorties, por si lo quiero arreglar.
     
     const IconFav = isFavorite? AiOutlineCheck : AiOutlinePlus;
 
