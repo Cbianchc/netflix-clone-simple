@@ -5,6 +5,7 @@ import { signIn } from 'next-auth/react';
 
 import { FcGoogle } from 'react-icons/fc';
 import { FaGithub } from 'react-icons/fa';
+//import Image from "next/image";
 
 const Auth = () => {
     const [email, setEmail] = useState('');

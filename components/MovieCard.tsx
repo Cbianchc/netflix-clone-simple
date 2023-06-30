@@ -4,6 +4,7 @@ import { BsChevronDown } from 'react-icons/bs'
 import FavoriteButton from './FavoriteButton';
 import { useRouter } from 'next/router';
 import useInfoModal from '@/hooks/useInfoModal';
+//import Image from 'next/image';
 
 interface MovieCardProps {
     data: Record<string, any>
