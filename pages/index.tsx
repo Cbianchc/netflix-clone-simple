@@ -39,8 +39,10 @@ export default function Home() {
       <Navbar />
       <Billboard />
       <div className='pb-40'>
-        <MovieList title='Las pelis'data={movies} />
+        <MovieList title='Rutinas'data={movies} />
         {/* <MovieList title='Mi lista'data={favorites} /> */}
+        <script src="https://player.vimeo.com/api/player.js"></script>
+
       </div>
     </>
   )

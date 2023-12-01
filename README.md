@@ -1,27 +1,19 @@
-# Netflix Clone 💻
-### Practice for Prisma, MongoDB, NextAuth and TypeScript.
+# EntrenaFlix 💻
+### Es una pagina para entrenar como ves netflix.
 
-##### (Also learning how to document and create a readme 😊)
+##### (Creada con Next.js - TypeScript - Tailwind 😊)
 
-## Screenshots
+## Que hay dentro...
 
-![App Screenshot](https://i.ibb.co/vhVLWxW/net-Clone3.png)
-
-![App Screenshot](https://i.ibb.co/Z2zDhZh/netf-Clone1.png)
-
-
-
-## Tech Stack & Features
-
-- Environment, Typescript, NextJS Setup
-- MongoDB & Prisma connect, Database creation
-- Authentication with NextAuth, Google & Github Login
-- Full responsiveness
+- Una interfaz similar a Netflix 
+- MongoDB & Prisma Para base de datos y conecciones
+- Autenticacion con NextAuth, Google & Github Login
+- Full responsive
 - Cookie based authentication
 - API and Controllers creation
-- Detail-oriented effects and animations - TailwindCSS
-- React SWR data fetching
-- Zustand state management
+- Efectos y animaciones
+
+
 ## Link to Proyect
 [Nexflix Clone - Versel deploy](https://netfclone-simple.vercel.app/auth)
 

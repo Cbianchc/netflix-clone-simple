@@ -43,9 +43,9 @@ const Navbar = () => {
     return(
       <nav className=" w-full fixed z-40">
         <div className={`px-4 md:px-16 py-6 flex flex-row items-center transition duration-500 ${showBackground ? 'bg-zinc-900 bg-opacity-90' : ''}`}>
-          <img src="/images/nefli-logo.png" 
+          <img src="/images/entrenaflix.png" 
               alt="logo" 
-              className="h-4 lg:h-7"
+              className="h-7 lg:h-7"
           />
             <div className="
               flex-row
@@ -54,11 +54,11 @@ const Navbar = () => {
               hidden
               lg:flex
             ">
-              <NavbarItem label="Series" />
-              <NavbarItem label="Peliculas" />
+              <NavbarItem label="Rutinas" />
+              <NavbarItem label="Ejercicios" />
               <NavbarItem label="Popular" />
               <NavbarItem label="Mi lista" />
-              <NavbarItem label="Buscar por lenguaje" />
+              <NavbarItem label="Buscar" />
               </div>
               <div 
                 onClick={toogleMObileMenu}
@@ -72,7 +72,7 @@ const Navbar = () => {
                   relative
                   ml-8
                 ">
-                  <p className="text-white text-md">Browse</p>
+                  <p className="text-white text-md">Buscar</p>
                   <BsChevronDown  className={`w-4 text-white fill-white transition ${showMobileMenu ? 'rotate-180' : 'rotate-0'}`}/>
                   <MobileMenu visible={showMobileMenu}/>
                 </div>
